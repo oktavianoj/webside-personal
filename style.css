@@ -1,0 +1,218 @@
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section-p1 {
+    padding: 100px 50px;
+  }
+ 
+
+#navbar{
+   padding: 0 50px 0 50px;
+   background-color: white;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+
+.benner{
+    display: flex;
+    align-items: center;
+    padding: 50px 8%;
+
+}
+
+.benner .b-text{
+     margin: auto;
+    
+}
+
+.benner .b-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 0;
+    
+}
+ 
+
+/* promosi */
+
+.promo {
+    display: flex;
+}
+.promo .promo1{
+    margin: 10px;
+}
+
+.promo .promo1 .promo-text h6{
+    position: absolute;
+    margin-top: -150px;
+    margin-left:10px ;
+    font-size: 2rem;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+}
+
+.promo .promo1 .promo-text p{
+    position: absolute;
+    margin-top: -110px;
+    margin-left:10px ;
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+   
+}
+
+.promo .promo1 .promo-text .bton{
+    position: absolute;
+    margin-top: -80px;
+    margin-left:10px ;
+    font-size: 13px;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 6px;  
+}
+.promo .promo1 img{
+    width: 100%;
+    height: auto;
+}
+button{
+    background-color: rgb(6, 192, 192);
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.deskripsi{
+    color: gray;
+    font-size: 10px;
+}
+
+#paraf{
+    color: gray;
+    font-size: 13px;
+}
+
+.star{
+    color: darkorange;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star .heart .bx{
+    color: red;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.star .heart .bx:hover{
+    color: black;
+     
+}
+
+
+#text-dark{
+    background-color: rgb(221, 221, 221);
+    font-size: 13px;
+}
+
+#text-dark:hover{
+    background-color: rgb(190, 187, 187);
+}
+
+
+.diskon{
+    font-size: 13px;
+    color: black;
+}
+
+.diskon span{
+    text-decoration: line-through;
+    color: gray;
+}
+
+#card{
+    border-radius: 15px;
+}
+
+#card img{
+    border-radius: 15px;
+}
+
+#card #footer{
+    border-radius: 0px 0 15px 15px;
+    background-color: white; 
+ 
+}
+ 
+#card #footer
+#harga{
+    font-size: 13px;
+    line-height: 30px;
+    color: black;
+}
+
+ 
+ footer{
+    display: flex;
+   
+    
+ }
+
+ footer .col{
+    margin: 10px;
+ }
+ footer .col h4{
+    font-size: 16px;
+    color: #1f1c1c;
+ }
+
+ footer .col p{
+    color:#818080 ;
+    font-size: 14px
+ }
+ footer .col strong{
+    font-size: 16px;
+ }
+
+ footer .col a{
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    display: inline-block;
+    display: grid;
+ }
+
+@media (max-width:763px){
+    #navbar{
+        padding: 0 23px 0 23px;
+        background-color: white;
+        position: static;
+    }
+    .benner{
+        display: block;
+        justify-content: space-between;
+        
+    }
+
+    .benner .b-image img{
+       width: 100%;
+       height: auto ;
+       justify-content: space-between;
+    }
+    .promo{
+        display: block;
+    }
+
+    footer{
+    display: grid;
+   
+}
+}
